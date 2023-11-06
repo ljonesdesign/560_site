@@ -1,0 +1,22 @@
+footer {
+    background-color:black;
+}
+
+/* footer color hack */
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    color: rgba(255, 255, 255, 0.75) !important;
+  }
+
+  body {
+    background-color: gainsboro;
+  }
+  
+  .cover_img {
+   background: url(../img/mountains.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+      }
+
